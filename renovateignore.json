@@ -1,0 +1,18 @@
+{
+  "description": "Dependencies listed in this file will be ignored by Renovate until we manually approve them in the Master Issue.",
+  "packageRules": [
+    {
+      "packageNames": [
+        "dd-trace"
+      ],
+      "minor": {
+        "groupName": null
+      },
+      "masterIssueApproval": true
+    },
+    {
+      "packageNames": ["node"],
+      "allowedVersions": "12.16.3"
+    }
+  ]
+}
