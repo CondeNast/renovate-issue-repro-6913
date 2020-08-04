@@ -9,7 +9,7 @@ jobs:
   hello_world:
     working_directory: *working_directory
     docker:
-      - image: quay.io/condenastinternational/cnid-build-base:01de4f4201a860947eb348cd85f28af590af8975@sha256:95a414e53fca401fa4d1e5c02d494e8a9210c6981a2f744bbc2d432dd1965362
+      - image: quay.io/condenastinternational/cnid-build-base:1e916aa94eef3999bcfc907ef7a2319616b9827e@sha256:34ac3665cc3849097f6b95ba4073d3f8059aeaefd43a144108c8d69c93f02540
         environment: *environment
     resource_class: small
     steps:
